@@ -18,7 +18,7 @@ if(navigator.geolocation){
       //  const apikey='62e49af0140204c485ffa305afc9763a';
 const proxy="https://cors-anywhere.herokuapp.com/";
 //const api=`https://api.darksky.net/forecast/fd9d9c6418c23d94745b836767721ad1/${lat}, ${long}`;
-const api  = `${proxy}https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${long}&appid=${apikey
+const api  = `${proxy}https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${long}&appid=${apikey}`;
 
 fetch(api)
 .then(response=>{
